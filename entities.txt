@@ -1,0 +1,28 @@
+OSD Entities
+
+Entities:
+
+  .Investor
+    Attributes:
+      .bondsOwned
+    Methods:
+      .purchaseBond
+      .getPayout
+      .getBondsOwned
+
+  .Bond
+    Attributes:
+      .name
+      .price
+      .term
+      .coupon
+      .frequencyOfPayment
+      .purchaseDate
+      .value
+      .internalRateOfReturn
+      .macaulayDuration
+    Methods:
+      .getInternalRateofReturn
+      .getDuration
+      .getValue
+      .getPayout
